@@ -1,0 +1,93 @@
+{
+    "parent": "aeria:master",
+    "display": {
+      "icon": {
+        "item": "mysticalagriculture:supremium_helmet"
+      },
+      "title": {
+        "text": "Mystic"
+      },
+      "description": {
+        "text": "Get supremely powerful with a full set of Supremium Tools and Armor (except from Hoe, Staff and Watering Can). They never break!"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+        "Helmet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"item": "mysticalagriculture:supremium_helmet"}
+                ]
+            }
+        },
+        "Chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"item": "mysticalagriculture:supremium_chestplate"}
+                ]
+            }
+        },
+        "Leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"item": "mysticalagriculture:supremium_leggings"}
+                ]
+            }
+        },
+        "Boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"item": "mysticalagriculture:supremium_boots"}
+                ]
+            }
+        },
+        "Sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"item": "mysticalagriculture:supremium_sword"}
+                ]
+            }
+        },
+        "Shovel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"item": "mysticalagriculture:supremium_shovel"}
+                ]
+            }
+        },
+        "Axe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"item": "mysticalagriculture:supremium_axe"}
+                ]
+            }
+        },
+        "Pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"item": "mysticalagriculture:supremium_pickaxe"}
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["Helmet"], ["Chestplate"], ["Leggings"], ["Boots"], ["Sword"], ["Shovel"], ["Axe"], ["Pickaxe"]
+    ],
+    "rewards": {
+        "loot": [
+            "aeria:reward_mystic"
+        ],
+        "experience": 160
+    }
+}

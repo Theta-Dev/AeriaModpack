@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "quark:basalt",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quark:slate",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quark:jasper",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quark:limestone",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quark:marble",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "byg:dacite",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "byg:soapstone",
+          "weight": 10
+        }
+      ]
+    }
+  ]
+}

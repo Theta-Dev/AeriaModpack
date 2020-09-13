@@ -1,0 +1,36 @@
+{
+  "general": {
+    "despawnItem": 6000,
+    "customThrow": false,
+    "fallSounds": false,
+    "enableIgniting": false,
+    "swimmingItems": {
+      "entries": [],
+      "isWhitelist": true
+    },
+    "burningItems": {
+      "entries": [],
+      "isWhitelist": false
+    },
+    "undestroyableItems": {
+      "entries": [
+        "{item:\"minecraft:nether_star\",id:\"item\"}",
+        "{block:\"minecraft:bedrock\",id:\"block\"}",
+        "{block:\"minecraft:obsidian\",id:\"block\"}",
+        "{material:\"minecraft:barrier\",id:\"material\"}"
+      ],
+      "isWhitelist": true
+    },
+    "ignitingItems": {
+      "entries": [],
+      "isWhitelist": true
+    }
+  },
+  "pickup": {
+    "customPickup": false,
+    "pickupWhenSneaking": true,
+    "maximumPickupRange": 5.0,
+    "pickupMinedImmediately": false,
+    "respectRangeWhenMined": false
+  }
+}

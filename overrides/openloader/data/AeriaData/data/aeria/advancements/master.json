@@ -1,0 +1,31 @@
+{
+    "parent": "aeria:millstone",
+    "display": {
+      "icon": {
+        "item": "curios:crown"
+      },
+      "title": {
+        "text": "Crown of Aeria"
+      },
+      "description": {
+        "text": "Once you've reached the nether, things get serious. Earn a trophy for every part of the pack you completed."
+      },
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "criteria": {
+      "0": {
+        "trigger": "minecraft:changed_dimension",
+        "conditions": {
+          "to": "minecraft:the_nether"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "0"
+      ]
+    ]
+}

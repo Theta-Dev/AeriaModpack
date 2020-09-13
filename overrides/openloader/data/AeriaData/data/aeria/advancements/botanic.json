@@ -1,0 +1,77 @@
+{
+    "parent": "aeria:master",
+    "display": {
+      "icon": {
+        "item": "botania:creative_pool"
+      },
+      "title": {
+        "text": "Botanic"
+      },
+      "description": {
+        "text": "Only the bravest Botanists will challenge the Gaia Guardian often enough to earn the full Relic set."
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+        "Fruit of Grisaia": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"item": "botania:infinite_fruit"}
+                ]
+            }
+        },
+        "Key of the Kings's Law": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"item": "botania:king_key"}
+                ]
+            }
+        },
+        "Eye of the Flügel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"item": "botania:flugel_eye"}
+                ]
+            }
+        },
+        "Ring of Thor": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"item": "botania:thor_ring"}
+                ]
+            }
+        },
+        "Ring of Odin": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"item": "botania:odin_ring"}
+                ]
+            }
+        },
+        "Ring of Loki": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"item": "botania:loki_ring"}
+                ]
+            }
+        }
+    },
+    "requirements": [
+      ["Fruit of Grisaia"], ["Key of the Kings's Law"], ["Eye of the Flügel"], ["Ring of Thor"], ["Ring of Odin"], ["Ring of Loki"]
+    ],
+    "rewards": {
+        "loot": [
+            "aeria:reward_botanic"
+        ],
+        "experience": 160
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "parent": "aeria:lava_crucible",
+    "display": {
+      "icon": {
+        "item": "minecraft:iron_nugget"
+      },
+      "title": {
+        "text": "Iron washing"
+      },
+      "description": {
+        "text": "Build a waterslide and drop gravel into it. You may wash out some iron."
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"item": "minecraft:iron_nugget"}
+                ]
+            }
+        }
+    },
+    "requirements": [
+      ["0"]
+    ]
+}

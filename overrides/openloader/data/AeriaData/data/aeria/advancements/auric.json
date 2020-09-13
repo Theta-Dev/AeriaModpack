@@ -1,0 +1,93 @@
+{
+    "parent": "aeria:master",
+    "display": {
+      "icon": {
+        "item": "naturesaura:sky_helmet"
+      },
+      "title": {
+        "text": "Auric"
+      },
+      "description": {
+        "text": "Skyseeker's tools and armor can be mended using aura. Get yourself a full set (except from the hoe)."
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+        "Helmet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"item": "naturesaura:sky_helmet"}
+                ]
+            }
+        },
+        "Chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"item": "naturesaura:sky_chest"}
+                ]
+            }
+        },
+        "Leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"item": "naturesaura:sky_pants"}
+                ]
+            }
+        },
+        "Boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"item": "naturesaura:sky_shoes"}
+                ]
+            }
+        },
+        "Sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"item": "naturesaura:sky_sword"}
+                ]
+            }
+        },
+        "Shovel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"item": "naturesaura:sky_shovel"}
+                ]
+            }
+        },
+        "Axe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"item": "naturesaura:sky_axe"}
+                ]
+            }
+        },
+        "Pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"item": "naturesaura:sky_pickaxe"}
+                ]
+            }
+        }
+    },
+    "requirements": [
+      ["Helmet"], ["Chestplate"], ["Leggings"], ["Boots"], ["Sword"], ["Shovel"], ["Axe"], ["Pickaxe"]
+    ],
+    "rewards": {
+        "loot": [
+            "aeria:reward_auric"
+        ],
+        "experience": 160
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:advancement_reward",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "simple_trophies:neon",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{TrophyItem: {id: \"create:large_cogwheel\", Count: 1b, tag: {display: {Name: '{\"text\":\"Mechanic\"}'}}},  TrophyName: \"Mechanic\", TrophyColorRed: 255, TrophyColorGreen: 190, TrophyColorBlue: 0}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

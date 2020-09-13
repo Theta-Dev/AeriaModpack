@@ -1,0 +1,37 @@
+{
+    "parent": "aeria:hammer",
+    "display": {
+      "icon": {
+        "item": "aeriautil:leaf_pile"
+      },
+      "title": {
+        "text": "Squeeze the leaves"
+      },
+      "description": {
+        "text": "Harvest leaves with stone shears, craft them into a Leaf Pile, then use your hammer to squeeze the water out of them"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+        "Leaf Pile": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"item": "aeriautil:leaf_pile"}
+                ]
+            }
+        },
+        "Water": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+              "block": "minecraft:water"
+            }
+          }
+    },
+    "requirements": [
+      ["Leaf Pile"], ["Water"]
+    ]
+}
