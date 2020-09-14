@@ -7,5 +7,5 @@
 	#Range: > 0
 	mementoTime = 300
 	#Range: 0 ~ 20
-	mementoHealth = 19
+	mementoHealth = 10
 

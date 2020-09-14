@@ -43,7 +43,6 @@ install:
       - 325492 # LightOverlay
       - 404465 # FTB GUI Library
       - 348521 # Cloth Config API
-      - 317780 # Xaeros Worldmap
       - 303938 # Custom FOV
       - 363363 # Extreme Sound Muffler
       - 272515 # Better Advancements

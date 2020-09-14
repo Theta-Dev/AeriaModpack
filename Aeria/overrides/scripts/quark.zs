@@ -1,6 +1,7 @@
 // Quark
 
 import crafttweaker.api.item.IItemStack;
+var noitem = <item:minecraft:air>;
 
 #Oak Chest
 craftingTable.removeRecipe(<item:quark:oak_chest>);
@@ -40,6 +41,13 @@ craftingTable.addShaped("quark_brimstone", <item:quark:brimstone>*8, [
    [<tag:forge:stone>, <tag:forge:stone>, <tag:forge:stone>],
    [<tag:forge:stone>, <item:minecraft:magma_cream>, <tag:forge:stone>],
    [<tag:forge:stone>, <tag:forge:stone>, <tag:forge:stone>]
+]);
+
+// Heart of Diamond
+craftingTable.addShaped("quark_diamond_heart", <item:quark:diamond_heart>, [
+   [noitem, <tag:forge:gems/diamond>, noitem],
+   [<tag:forge:gems/diamond>, <item:minecraft:heart_of_the_sea>, <tag:forge:gems/diamond>],
+   [noitem, <tag:forge:gems/diamond>, noitem]
 ]);
 
 

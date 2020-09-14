@@ -5,7 +5,7 @@
 	#Ex: ["minecraft:stone_pickaxe", "minecraft:stone_sword"]
 	uselessTools = []
 	#Enabled tools not breaking?
-	toolBreaking = true
+	toolBreaking = false
 
 #Crafting grid tool repair configuration options.
 ["Grid Repair"]
@@ -46,7 +46,7 @@
 	#Colored Cobblestone enabled?
 	coloredCobblestone = true
 	#Watering Can enabled?
-	wateringCan = true
+	wateringCan = false
 	#Enable Paxels?
 	paxels = true
 	#Enable Night Vision Goggles?

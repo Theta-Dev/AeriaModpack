@@ -14,3 +14,7 @@ craftingTable.addShaped("recipe_dragon_egg", <item:minecraft:dragon_egg>, [
     [<item:quark:dragon_scale>, <item:minecraft:egg>, <item:quark:dragon_scale>],
     [noitem, <item:quark:dragon_scale>, noitem]
 ]);
+
+craftingTable.addShapeless("recipe_book_quill", <item:minecraft:writable_book>, [
+	<item:minecraft:book>, <tag:forge:dyes/black>, <tag:forge:feathers>
+]);

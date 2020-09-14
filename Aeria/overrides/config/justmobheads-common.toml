@@ -11,5 +11,5 @@
 	enableLootingEnchant = true
 	#Sets the chance of a mob dropping its head if 'mobSpecificDropChances' is disabled.
 	#Range: 1.0E-4 ~ 1.0
-	overallDropChance = 0.02
+	overallDropChance = 0.01
 
