@@ -33,12 +33,12 @@
         {
             item: "minecraft:gold_nugget",
             count: 1,
-            chance: 0.3 as float
+            chance: 0.6 as float
         },
         {
 			item: "minecraft:redstone",
 			count: 1,
-			chance: 0.5 as float
+			chance: 0.18 as float
         }
     ]
 });
@@ -55,8 +55,7 @@
         },
         {
 			item: "minecraft:gold_nugget",
-			count: 1,
-			chance: 0.5 as float
+			count: 2,
         },
         {
 			item: "mysticalagriculture:soulium_dust",
@@ -90,7 +89,7 @@
         item: "minecraft:gold_nugget"
     },
     numRolls: 1,
-    chance: 0.15 as float
+    chance: 0.3 as float
 });
 
 <recipetype:aeriautil:washing>.removeByName("aeriautil:washing/red_sand_to_redstone");
@@ -102,7 +101,7 @@
         item: "minecraft:redstone"
     },
     numRolls: 1,
-    chance: 0.25 as float
+    chance: 0.09 as float
 });
 
 <recipetype:aeriautil:washing>.addJSONRecipe("washing_soul_sand_to_quartz", {
@@ -124,5 +123,5 @@
         item: "minecraft:gold_nugget"
     },
     numRolls: 1,
-    chance: 0.25 as float
+    chance: 1.0 as float
 });
