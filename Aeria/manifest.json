@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Aeria",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "ThetaDev",
   "files": [
     {
@@ -47,11 +47,6 @@
     {
       "projectID": 250419,
       "fileID": 2967790,
-      "required": true
-    },
-    {
-      "projectID": 325492,
-      "fileID": 3048970,
       "required": true
     },
     {
@@ -111,7 +106,7 @@
     },
     {
       "projectID": 317780,
-      "fileID": 3048345,
+      "fileID": 3058281,
       "required": true
     },
     {
@@ -166,7 +161,7 @@
     },
     {
       "projectID": 241665,
-      "fileID": 3022448,
+      "fileID": 3057858,
       "required": true
     },
     {
@@ -176,7 +171,7 @@
     },
     {
       "projectID": 399558,
-      "fileID": 3043085,
+      "fileID": 3060019,
       "required": true
     },
     {
@@ -202,6 +197,11 @@
     {
       "projectID": 308989,
       "fileID": 2978210,
+      "required": true
+    },
+    {
+      "projectID": 69118,
+      "fileID": 2898972,
       "required": true
     },
     {
@@ -387,11 +387,6 @@
     {
       "projectID": 317716,
       "fileID": 2880079,
-      "required": true
-    },
-	{
-      "projectID": 69118,
-      "fileID": 2898972,
       "required": true
     }
   ],
