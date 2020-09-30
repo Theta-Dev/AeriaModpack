@@ -18,3 +18,24 @@ craftingTable.addShaped("recipe_dragon_egg", <item:minecraft:dragon_egg>, [
 craftingTable.addShapeless("recipe_book_quill", <item:minecraft:writable_book>, [
 	<item:minecraft:book>, <tag:forge:dyes/black>, <tag:forge:feathers>
 ]);
+
+<recipetype:aeriautil:sieve>.addJSONRecipe("sieve_brown_mushroom", {
+    input: {
+        tag: "aeriautil:dirt"
+    },
+    output: {
+        item: "minecraft:brown_mushroom"
+    },
+    numRolls: 1,
+    chance: 0.01 as float
+});
+<recipetype:aeriautil:sieve>.addJSONRecipe("sieve_red_mushroom", {
+    input: {
+        tag: "aeriautil:dirt"
+    },
+    output: {
+        item: "minecraft:red_mushroom"
+    },
+    numRolls: 1,
+    chance: 0.01 as float
+});
