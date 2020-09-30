@@ -395,27 +395,27 @@
 
 [world]
 	"New Stone Types" = true
-	"Lush Underground Biome" = true
-	"Big Dungeon" = true
+	"Lush Underground Biome" = false
+	"Big Dungeon" = false
 	Speleothems = true
 	Biotite = true
-	"Big Stone Clusters" = true
-	"Elder Prismarine Underground Biome" = true
-	"Brimstone Underground Biome" = true
+	"Big Stone Clusters" = false
+	"Elder Prismarine Underground Biome" = false
+	"Brimstone Underground Biome" = false
 	"Blossom Trees" = true
-	"Sandstone Underground Biome" = true
-	"Cave Crystal Underground Biome" = true
-	"Glowshroom Underground Biome" = true
-	"Overgrown Underground Biome" = true
+	"Sandstone Underground Biome" = false
+	"Cave Crystal Underground Biome" = false
+	"Glowshroom Underground Biome" = false
+	"Overgrown Underground Biome" = false
 	"Cave Roots" = true
-	"Permafrost Underground Biome" = true
+	"Permafrost Underground Biome" = false
 	"Underground Clay" = true
-	"Slime Underground Biome" = true
-	"Spider Nest Underground Biome" = true
-	Crevices = true
-	"Monster Box" = true
+	"Slime Underground Biome" = false
+	"Spider Nest Underground Biome" = false
+	Crevices = false
+	"Monster Box" = false
 	"Nether Obsidian Spikes" = true
-	"Mega Caves" = true
+	"Mega Caves" = false
 
 	[world.monster_box]
 		#The chance for the monster box generator to try and place one in a chunk, 1 is 100%
