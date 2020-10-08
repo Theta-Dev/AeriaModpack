@@ -1,0 +1,14 @@
+name = "Corpse"
+filename = "corpse-1.15.2-1.0.9.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3048/418/corpse-1.15.2-1.0.9.jar"
+hash-format = "murmur2"
+hash = "3088340542"
+
+[update]
+[update.curseforge]
+file-id = 3048418
+project-id = 316582
+release-channel = "beta"

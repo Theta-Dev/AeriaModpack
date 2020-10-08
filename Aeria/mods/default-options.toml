@@ -1,0 +1,14 @@
+name = "Default Options"
+filename = "DefaultOptions_1.15.2-11.0.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2880/426/DefaultOptions_1.15.2-11.0.1.jar"
+hash-format = "murmur2"
+hash = "2769955196"
+
+[update]
+[update.curseforge]
+file-id = 2880426
+project-id = 232131
+release-channel = "beta"

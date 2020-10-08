@@ -1,0 +1,31 @@
+{
+    "parent": "aeria:millstone",
+    "display": {
+      "icon": {
+        "item": "minecraft:gold_nugget"
+      },
+      "title": {
+        "text": "Gold washing"
+      },
+      "description": {
+        "text": "There seems to be something shiny in that red sand. Maybe you should try washing it out."
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"item": "minecraft:gold_nugget"}
+                ]
+            }
+        }
+    },
+    "requirements": [
+      ["0"]
+    ]
+}

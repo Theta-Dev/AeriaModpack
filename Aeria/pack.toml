@@ -1,0 +1,10 @@
+name = "Aeria"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "de0af0bcebaa795bc15ed798909a805c497e248e5fdafb0cb5fb5a8ee0b96ce9"
+
+[versions]
+forge = "31.2.37"
+minecraft = "1.15.2"

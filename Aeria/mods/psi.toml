@@ -1,0 +1,14 @@
+name = "Psi"
+filename = "Psi r1.2-84.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3057/858/Psi r1.2-84.jar"
+hash-format = "murmur2"
+hash = "732046085"
+
+[update]
+[update.curseforge]
+file-id = 3057858
+project-id = 241665
+release-channel = "beta"

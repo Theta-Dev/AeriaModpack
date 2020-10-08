@@ -1,0 +1,29 @@
+
+[generator]
+	#Set the island generator [tree/template]
+	islandGenerator = "template"
+	#Select a different island generator for the spawn island. Useful for multiplayer. Leave empty to use the generator set above.
+	spawnGenerator = ""
+	#Template name (Resource location of nbt file)
+	islandParameter = "aeriaworld:aeria"
+	#Template name for SpawnGenerator
+	spawnParameter = ""
+
+#Permission levels for the /aeriautil command - Player:0, Mod:1, OP:2, Admin:3, Owner:4
+[permission]
+	#Permission for teleporting between islands
+	#Range: 0 ~ 4
+	permissionTp = 0
+	#Permission for setting spawnpoint on own island
+	#Range: 0 ~ 4
+	permissionSpawn = 0
+	#Permission for creating own island
+	#Range: 0 ~ 4
+	permissionCreate = 0
+	#Permission for resetting own island
+	#Range: 0 ~ 4
+	permissionReset = 2
+	#Permission for creating/resetting other islands and teleporting other players
+	#Range: 0 ~ 4
+	permissionAdmin = 2
+

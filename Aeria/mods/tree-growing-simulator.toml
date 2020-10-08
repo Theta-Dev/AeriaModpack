@@ -1,0 +1,14 @@
+name = "Tree Growing Simulator"
+filename = "TreeGrowingSimulator2020-1.0.0-beta+32.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3030/9/TreeGrowingSimulator2020-1.0.0-beta+32.jar"
+hash-format = "murmur2"
+hash = "1335998912"
+
+[update]
+[update.curseforge]
+file-id = 3030009
+project-id = 246764
+release-channel = "beta"

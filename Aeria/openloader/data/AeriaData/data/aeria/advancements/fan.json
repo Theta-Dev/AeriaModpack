@@ -1,0 +1,31 @@
+{
+    "parent": "aeria:millstone",
+    "display": {
+      "icon": {
+        "item": "create:encased_fan"
+      },
+      "title": {
+        "text": "More efficiency"
+      },
+      "description": {
+        "text": "Blowing water particles onto sand and gravel gives you a higher chance for rare metals than traditional washing"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"item": "create:encased_fan"}
+                ]
+            }
+        }
+    },
+    "requirements": [
+      ["0"]
+    ]
+}

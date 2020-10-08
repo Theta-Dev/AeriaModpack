@@ -1,0 +1,47 @@
+{
+    "parent": "aeria:iron_washing",
+    "display": {
+      "icon": {
+        "item": "minecraft:granite"
+      },
+      "title": {
+        "text": "Stone generator"
+      },
+      "description": {
+        "text": "Build a stone generator. Various types of rock will form."
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+        "Granite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"item": "minecraft:granite"}
+                ]
+            }
+        },
+        "Diorite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"item": "minecraft:diorite"}
+                ]
+            }
+        },
+        "Andesite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"item": "minecraft:andesite"}
+                ]
+            }
+        }
+    },
+    "requirements": [
+      ["Granite"], ["Diorite"], ["Andesite"]
+    ]
+}

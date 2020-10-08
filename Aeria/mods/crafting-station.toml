@@ -1,0 +1,14 @@
+name = "Crafting Station"
+filename = "craftingstation-3.1.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2905/656/craftingstation-3.1.0.jar"
+hash-format = "murmur2"
+hash = "3620928017"
+
+[update]
+[update.curseforge]
+file-id = 2905656
+project-id = 318551
+release-channel = "beta"

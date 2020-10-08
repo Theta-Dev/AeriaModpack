@@ -1,0 +1,14 @@
+name = "Morpheus"
+filename = "Morpheus-1.15.2-4.2.50.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2898/972/Morpheus-1.15.2-4.2.50.jar"
+hash-format = "murmur2"
+hash = "3157709658"
+
+[update]
+[update.curseforge]
+file-id = 2898972
+project-id = 69118
+release-channel = "beta"

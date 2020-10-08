@@ -1,0 +1,14 @@
+name = "Torchmaster"
+filename = "torchmaster-2.2.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3017/958/torchmaster-2.2.2.jar"
+hash-format = "murmur2"
+hash = "1751585726"
+
+[update]
+[update.curseforge]
+file-id = 3017958
+project-id = 254268
+release-channel = "beta"

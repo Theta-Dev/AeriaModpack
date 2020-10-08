@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:advancement_reward",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "simple_trophies:neon",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{TrophyItem: {id: \"naturesaura:sky_helmet\", Count: 1b, tag: {display: {Name: '{\"text\":\"Auric\"}'}}},  TrophyName: \"Auric\", TrophyColorRed: 0, TrophyColorGreen: 234, TrophyColorBlue: 209}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

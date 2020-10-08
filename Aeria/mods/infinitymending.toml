@@ -1,0 +1,14 @@
+name = "InfinityMending"
+filename = "InfinityMending-1.15.2-0.1.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3021/949/InfinityMending-1.15.2-0.1.0.jar"
+hash-format = "murmur2"
+hash = "215997901"
+
+[update]
+[update.curseforge]
+file-id = 3021949
+project-id = 399752
+release-channel = "beta"

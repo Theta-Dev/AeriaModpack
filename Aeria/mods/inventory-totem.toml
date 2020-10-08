@@ -1,0 +1,14 @@
+name = "Inventory Totem"
+filename = "inventorytotem_1.15-1.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2979/186/inventorytotem_1.15-1.1.jar"
+hash-format = "murmur2"
+hash = "3783327962"
+
+[update]
+[update.curseforge]
+file-id = 2979186
+project-id = 349071
+release-channel = "beta"

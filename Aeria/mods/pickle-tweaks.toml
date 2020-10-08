@@ -1,0 +1,14 @@
+name = "Pickle Tweaks"
+filename = "PickleTweaks-1.15.2-4.0.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2993/561/PickleTweaks-1.15.2-4.0.4.jar"
+hash-format = "murmur2"
+hash = "1702729151"
+
+[update]
+[update.curseforge]
+file-id = 2993561
+project-id = 238761
+release-channel = "beta"

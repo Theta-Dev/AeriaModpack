@@ -1,0 +1,14 @@
+name = "Extra Tags"
+filename = "extratags-1.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2941/269/extratags-1.1.jar"
+hash-format = "murmur2"
+hash = "624041507"
+
+[update]
+[update.curseforge]
+file-id = 2941269
+project-id = 368416
+release-channel = "beta"

@@ -1,0 +1,14 @@
+name = "CraftTweaker"
+filename = "CraftTweaker-1.15.2-6.0.0.24.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2949/785/CraftTweaker-1.15.2-6.0.0.24.jar"
+hash-format = "murmur2"
+hash = "109196048"
+
+[update]
+[update.curseforge]
+file-id = 2949785
+project-id = 239197
+release-channel = "beta"

@@ -1,0 +1,35 @@
+{
+    "parent": "aeria:master",
+    "display": {
+      "icon": {
+        "item": "create:handheld_blockzapper",
+        "nbt": "{Retriever:\"Chromatic\",Scope:\"Chromatic\",Amplifier:\"Chromatic\",Body:\"Chromatic\",Accelerator:\"Chromatic\"}"
+      },
+      "title": {
+        "text": "Mechanic"
+      },
+      "description": {
+        "text": "Move your Create game into top gear and get yourself a fully upgraded Handheld Blockzapper."
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "0": {
+        "trigger": "create:upgraded_zapper"
+      }
+    },
+    "requirements": [
+      [
+        "0"
+      ]
+    ],
+    "rewards": {
+        "loot": [
+            "aeria:reward_mechanic"
+        ],
+        "experience": 160
+    }
+}

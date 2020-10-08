@@ -1,0 +1,14 @@
+name = "Item Collectors"
+filename = "itemcollectors-1.0.5-mc1.15.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3054/406/itemcollectors-1.0.5-mc1.15.jar"
+hash-format = "murmur2"
+hash = "3841160597"
+
+[update]
+[update.curseforge]
+file-id = 3054406
+project-id = 395620
+release-channel = "beta"

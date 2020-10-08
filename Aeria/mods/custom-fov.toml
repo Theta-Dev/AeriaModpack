@@ -1,0 +1,14 @@
+name = "Custom FoV (Forge)"
+filename = "customfov-FORGE-1.15.2-3.0.0.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2881/419/customfov-FORGE-1.15.2-3.0.0.1.jar"
+hash-format = "murmur2"
+hash = "3244786786"
+
+[update]
+[update.curseforge]
+file-id = 2881419
+project-id = 303938
+release-channel = "beta"

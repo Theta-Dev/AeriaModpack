@@ -1,0 +1,14 @@
+name = "Neat"
+filename = "Neat 1.6-22.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2957/553/Neat 1.6-22.jar"
+hash-format = "murmur2"
+hash = "3685890881"
+
+[update]
+[update.curseforge]
+file-id = 2957553
+project-id = 238372
+release-channel = "beta"

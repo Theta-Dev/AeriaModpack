@@ -1,0 +1,14 @@
+name = "Just Mob Heads"
+filename = "justmobheads_1.15-3.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2988/238/justmobheads_1.15-3.4.jar"
+hash-format = "murmur2"
+hash = "2167427394"
+
+[update]
+[update.curseforge]
+file-id = 2988238
+project-id = 293320
+release-channel = "beta"

@@ -1,0 +1,14 @@
+name = "Mooshroom Spawn"
+filename = "mooshroomspawn_1.15-1.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2978/507/mooshroomspawn_1.15-1.1.jar"
+hash-format = "murmur2"
+hash = "3326303548"
+
+[update]
+[update.curseforge]
+file-id = 2978507
+project-id = 325013
+release-channel = "beta"

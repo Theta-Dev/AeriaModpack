@@ -1,0 +1,14 @@
+name = "FallingTree"
+filename = "FallingTree-1.15.2-2.4.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3062/120/FallingTree-1.15.2-2.4.0.jar"
+hash-format = "murmur2"
+hash = "2943959281"
+
+[update]
+[update.curseforge]
+file-id = 3062120
+project-id = 349559
+release-channel = "beta"

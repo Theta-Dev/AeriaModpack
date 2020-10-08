@@ -1,0 +1,10 @@
+#Chance for a villager killed by a zombie to turn into a zombie villager
+#Range: 0.0 ~ 1.0
+ZombificationChance = 1.0
+#Chance for a converted zombie to be able to pick up loot
+#Range: 0.0 ~ 1.0
+PickupChance = 1.0
+#Chance for a converted zombie to not despawn
+#Range: 0.0 ~ 1.0
+PersistenceChance = 1.0
+

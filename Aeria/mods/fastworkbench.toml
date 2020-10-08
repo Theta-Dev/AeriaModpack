@@ -1,0 +1,14 @@
+name = "FastWorkbench"
+filename = "FastWorkbench-1.15.2-3.1.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3003/114/FastWorkbench-1.15.2-3.1.1.jar"
+hash-format = "murmur2"
+hash = "1981890523"
+
+[update]
+[update.curseforge]
+file-id = 3003114
+project-id = 288885
+release-channel = "beta"

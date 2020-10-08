@@ -1,0 +1,14 @@
+name = "Refined Relocation 2"
+filename = "RefinedRelocation_1.15.2-7.1.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2943/646/RefinedRelocation_1.15.2-7.1.1.jar"
+hash-format = "murmur2"
+hash = "2245037246"
+
+[update]
+[update.curseforge]
+file-id = 2943646
+project-id = 247135
+release-channel = "beta"

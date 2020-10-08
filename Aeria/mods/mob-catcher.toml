@@ -1,0 +1,14 @@
+name = "Mob Catcher"
+filename = "mobcatcher-2.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2883/322/mobcatcher-2.2.jar"
+hash-format = "murmur2"
+hash = "2509837257"
+
+[update]
+[update.curseforge]
+file-id = 2883322
+project-id = 324347
+release-channel = "beta"

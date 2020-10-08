@@ -1,0 +1,39 @@
+{
+    "parent": "aeria:sieve",
+    "display": {
+      "icon": {
+        "item": "aeriautil:stone_hammer"
+      },
+      "title": {
+        "text": "Hammer Time!"
+      },
+      "description": {
+        "text": "Use a hammer to crush cobble into gravel, gravel into sand and sand into dust"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+        "Hammer": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"tag": "aeriautil:hammers"}
+                ]
+            }
+        },
+        "Gravel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"item": "minecraft:gravel"}
+                ]
+            }
+        }
+    },
+    "requirements": [
+      ["Hammer"], ["Gravel"]
+    ]
+}

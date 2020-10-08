@@ -1,5 +1,0 @@
-#Show bonemeal particles when appropriate. Not sure why you would turn this off, but eh.
-showParticles = true
-#Will spawn a LOT more particles for actions near saplings.
-allTheParticles = true
-

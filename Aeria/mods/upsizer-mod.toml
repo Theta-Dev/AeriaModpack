@@ -1,0 +1,14 @@
+name = "Upsizer Mod [FORGE]"
+filename = "upsizer-mc1.15.2-5.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2892/563/upsizer-mc1.15.2-5.1.jar"
+hash-format = "murmur2"
+hash = "3449224851"
+
+[update]
+[update.curseforge]
+file-id = 2892563
+project-id = 237514
+release-channel = "beta"

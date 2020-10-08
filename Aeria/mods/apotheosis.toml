@@ -1,0 +1,14 @@
+name = "Apotheosis"
+filename = "Apotheosis-1.15.2-3.3.7.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3059/784/Apotheosis-1.15.2-3.3.7.jar"
+hash-format = "murmur2"
+hash = "2651783616"
+
+[update]
+[update.curseforge]
+file-id = 3059784
+project-id = 313970
+release-channel = "beta"

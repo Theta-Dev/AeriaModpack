@@ -1,0 +1,14 @@
+name = "ItemPhysic Full"
+filename = "ItemPhysic_v1.4.5_mc1.15.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2968/717/ItemPhysic_v1.4.5_mc1.15.2.jar"
+hash-format = "murmur2"
+hash = "3899407757"
+
+[update]
+[update.curseforge]
+file-id = 2968717
+project-id = 258587
+release-channel = "beta"

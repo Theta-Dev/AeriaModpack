@@ -1,0 +1,14 @@
+name = "Open Loader"
+filename = "OpenLoader-1.15.2-4.0.5.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2957/23/OpenLoader-1.15.2-4.0.5.jar"
+hash-format = "murmur2"
+hash = "3898946266"
+
+[update]
+[update.curseforge]
+file-id = 2957023
+project-id = 354339
+release-channel = "beta"

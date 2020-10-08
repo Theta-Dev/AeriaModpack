@@ -1,0 +1,14 @@
+name = "Quark"
+filename = "Quark-r2.1-245.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2980/651/Quark-r2.1-245.jar"
+hash-format = "murmur2"
+hash = "2496780500"
+
+[update]
+[update.curseforge]
+file-id = 2980651
+project-id = 243121
+release-channel = "beta"

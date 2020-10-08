@@ -1,0 +1,14 @@
+name = "Easy Elytra Takeoff"
+filename = "easyelytrato_1.15.2-1.5.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3034/869/easyelytrato_1.15.2-1.5.jar"
+hash-format = "murmur2"
+hash = "1436751973"
+
+[update]
+[update.curseforge]
+file-id = 3034869
+project-id = 347898
+release-channel = "beta"

@@ -1,0 +1,14 @@
+name = "Curious Shulker Boxes (Forge)"
+filename = "curiousshulkerboxes-FORGE-1.15.2-2.0.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2971/405/curiousshulkerboxes-FORGE-1.15.2-2.0.1.jar"
+hash-format = "murmur2"
+hash = "1155970730"
+
+[update]
+[update.curseforge]
+file-id = 2971405
+project-id = 316881
+release-channel = "beta"

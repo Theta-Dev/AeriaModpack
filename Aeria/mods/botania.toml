@@ -1,0 +1,14 @@
+name = "Botania"
+filename = "Botania-r1.15-388.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3020/377/Botania-r1.15-388.jar"
+hash-format = "murmur2"
+hash = "4195472666"
+
+[update]
+[update.curseforge]
+file-id = 3020377
+project-id = 225643
+release-channel = "beta"

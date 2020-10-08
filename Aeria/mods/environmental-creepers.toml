@@ -1,0 +1,14 @@
+name = "Environmental Creepers"
+filename = "environmentalcreepers-forge-1.15.2-1.6.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2873/590/environmentalcreepers-forge-1.15.2-1.6.1.jar"
+hash-format = "murmur2"
+hash = "2437708737"
+
+[update]
+[update.curseforge]
+file-id = 2873590
+project-id = 246320
+release-channel = "beta"
